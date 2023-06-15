@@ -1,0 +1,42 @@
+.sample-tutorial {
+   position: relative;
+   height: 100%;
+   overflow: hidden;
+}
+
+.sample-spreadsheets {
+  width: calc(100% - 280px);
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+.options-container {
+  float: right;
+  width: 280px;
+  padding: 12px;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fbfbfb;
+  overflow: auto;
+}
+
+.option-group {
+  margin-bottom: 6px;
+}
+.option-group input[type="checkbox"] {
+  margin-right: 6px;
+}
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#ss {
+  height: 98vh;
+  float: left; 
+  width: 85%;
+  /* left: auto; */
+}
